@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="star.css" />
+  </head>
+  <body>
+    <div id="banner">
+        <canvas id="canvas"></canvas>
+        <div class="card">
+            <img src="images/bs.jpg" alt="birthday" class="birthday">
+            <div class="text" style="position: relative;">
+              <form action="/url" method="GET">
+                  <label for="fb" style="color: rgb(99, 235, 201); text-align: center;"><h1>Wish you Happy Birthday!</h1></label> -->
+                  <input type="text" name="fname" id="fname" style="color: darkturquoise; font-size:x-large; text-align: center; " placeholder="Enter the Name" required><br><br>
+                  <input type="text" name="fname" id="fdob" style="color: rgb(61, 61, 122); font-size: larger; text-align: center;" placeholder="Enter the Date" required>
+                </form>
+                <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: large; color: blueviolet;"><i>Many more returns of the Day mydear may all your dreems come true make this day happy & joyfull  </i></p>
+              <p class="muted" style="text-align: right; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: rgb(241, 205, 45);">-Your's Loving "baba"</p>
+            </div>
+            <div class="space"></div>
+        </div>
+        
+    </div> 
+    <script src="./star.js"></script>
+  </body>
+</html>
